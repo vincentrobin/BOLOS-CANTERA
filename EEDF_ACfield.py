@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.constants as co
 import matplotlib.pyplot as plt
-from bolos import parser, grid, solver2
+from bolosKhai import parser, grid, solver2
 np.seterr(divide='ignore', invalid='ignore')
 # Create an energy grid for Boltzmann Solver
 # This energy grid has unit in eV
